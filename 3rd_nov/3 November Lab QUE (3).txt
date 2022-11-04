@@ -10,20 +10,21 @@ Q3)Write a program to display the following pattern
 class Downward_star {
     public static void main(String[] args) {
        
-for(int i=5;i>=1;i--){
-    for(int j=5;j>i;j--){
+for(int i=5;i>=1;i--){                  // for row
+    for(int j=5;j>i;j--){               // for spaces
         System.out.print(" ");
     }
-    for(int j=1;j<=(2*i-1);j++){
+    for(int j=1;j<=(2*i-1);j++){       //  for col
         System.out.print("*");
         
     }
-    System.out.println();
+    System.out.println();            //for printing in A NEW LINE
 }
     }
 }
 
 ----------------------------------------------------------------------------------------------------
+Write a program to display the following pattern
 
 ******
 *    *
@@ -32,21 +33,22 @@ for(int i=5;i>=1;i--){
 -------------
 public class Main {
     public static void main(String[] args) {
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++) {
-                if (i == 0 || i == 3 || j == 0 || j == 3) {
-                    System.out.print("*");
+        for (int i = 0; i < 4; i++) {                      //for row
+            for (int j = 0; j < 4; j++) {                  
+                if (i == 0 || i == 3 || j == 0 || j == 3) {  // checking condition for spaces
+                    System.out.print("*");                   // for printing star
                 } else {
-                    System.out.print(" ");
+                    System.out.print(" ");                   // for space
                 }
             }
-            System.out.println();
+            System.out.println();                           // for new line
         }
     }
 }
 
 
 ----------------------------------------------------------------------------------
+Write a program to display the following pattern
 
 A
 BC
@@ -58,20 +60,20 @@ KLMNO
 public class Main {
     public static void main(String args[]) {
 int i;
-for(i=1;i<=5;i++){
+for(i=1;i<=5;i++){                                //for row
     if(i==1){
         System.out.println("A");
     }
-    else if(i==2){
+    else if(i==2){                               // else if conditon for checking the line condition
          System.out.println("BC");
         
-    }else if(i==3){
+    }else if(i==3){                            // else if conditon for checking the line condition
          System.out.println("DEF");
         
-    }else if(i==4){
+    }else if(i==4){                           // else if conditon for checking the line condition
          System.out.println("GHIJ");
         
-    }else {
+    }else {                                   //default statment
          System.out.println("KLMNO");
         
     }
