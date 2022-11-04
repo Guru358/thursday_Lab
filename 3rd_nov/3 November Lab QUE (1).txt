@@ -9,14 +9,7 @@ import java.util.Scanner;
 
 public class demo3 
 {
-	 /* 03/11/22
-	 Thursday Lab Programs:
-     Q1) Accept age and gender from user and display the
-         rate of interest as follow
-	 age above 60 and gender Male (RI= 7 %)
-	 age above 60 and gender FeMale (RI= 7.5 %)
-	 below 60 age = RI 5% */
-
+	
 
 	public static void main(String[] args) 
 {
